@@ -1,0 +1,50 @@
+[
+  {
+    "question": "What is the role of the Execution Manager in AUTOSAR Adaptive Platform?",
+    "expected_source": "autosar_adaptive_overview.md"
+  },
+  {
+    "question": "Why does a LiDAR/radar/camera fusion adaptive application benefit from ara::com instead of raw POSIX IPC?",
+    "expected_source": "autosar_adaptive_overview.md"
+  },
+  {
+    "question": "How is accelerator pedal angle data encoded and sent using AVTP across domains?",
+    "expected_source": "ieee1722_avtp_communication.md"
+  },
+  {
+    "question": "Why use Ethernet Layer 2 AVTP instead of an IP-based transport for time-sensitive automotive signals?",
+    "expected_source": "ieee1722_avtp_communication.md"
+  },
+  {
+    "question": "What is the recommended bring-up order when standing up multiple guest OSes under a Type-1 hypervisor?",
+    "expected_source": "xen_hypervisor_bringup.md"
+  },
+  {
+    "question": "How can Docker be used inside a hypervisor guest for iterative development?",
+    "expected_source": "xen_hypervisor_bringup.md"
+  },
+  {
+    "question": "Why is gRPC used for streaming vehicle signals to the cloud instead of plain REST/JSON?",
+    "expected_source": "ros2_cloud_bridge.md"
+  },
+  {
+    "question": "What backpressure problem can occur in a ROS2-to-cloud bridge node and how should it be handled?",
+    "expected_source": "ros2_cloud_bridge.md"
+  },
+  {
+    "question": "Which display surfaces does the QNX domain typically own versus the Android domain on a cockpit SoC?",
+    "expected_source": "qualcomm_sa8295_bringup.md"
+  },
+  {
+    "question": "Why might a face detection app work on Linux but fail on QNX on the same board?",
+    "expected_source": "qualcomm_sa8295_bringup.md"
+  },
+  {
+    "question": "What three factors mattered most in reducing embedded build time with distributed compilation?",
+    "expected_source": "build_optimization_incredibuild.md"
+  },
+  {
+    "question": "How much did build time improve after adopting distributed compilation on AWS EC2?",
+    "expected_source": "build_optimization_incredibuild.md"
+  }
+]
